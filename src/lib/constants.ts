@@ -10,7 +10,7 @@ export const NAV_LINKS = [
 export const MERCH_URL = "https://mavops-shop.fourthwall.com";
 export const DISCORD_INVITE = "https://discord.gg/mavops";
 export const BOT_INVITE =
-  "https://discord.com/api/oauth2/authorize?client_id=mavops-bot";
+  "https://discord.com/api/oauth2/authorize?client_id=1373493681830756415&permissions=8&scope=bot%20applications.commands";
 
 export const STATS = [
   { value: "25+", label: "Commands" },
