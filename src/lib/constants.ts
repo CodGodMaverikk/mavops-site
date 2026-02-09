@@ -460,7 +460,6 @@ export const FOOTER_LINKS = {
   ],
   community: [
     { label: "Discord", href: DISCORD_INVITE },
-    { label: "Twitter", href: "https://twitter.com/mavops" },
   ],
   legal: [
     { label: "Privacy Policy", href: "#" },
