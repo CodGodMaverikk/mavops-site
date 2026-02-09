@@ -38,7 +38,7 @@ export const pageMetadata = {
   bot: {
     title: "The Overseer",
     description:
-      "The ultimate Discord bot for gaming communities. XP systems, ranks, trivia, Twitch integration, and more.",
+      "The ultimate Discord bot for gaming communities. XP & leveling, 5 rank tiers, Twitch integration, AI trivia, spotlights, chess, and full customization.",
   },
   clipbot: {
     title: "Clip Dummy AI",

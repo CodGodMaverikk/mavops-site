@@ -22,7 +22,7 @@ export default function RankSystem() {
             <div className="relative">
               {/* Track */}
               <div className="h-3 bg-dark-50 rounded-full overflow-hidden">
-                <div className="h-full rounded-full bg-gradient-to-r from-[#cd7f32] via-[#c0c0c0] via-[#ffd700] to-[#00e5ff] w-full" />
+                <div className="h-full rounded-full bg-gradient-to-r from-[#95a5a6] via-[#cd7f32] via-[#c0c0c0] via-[#ffd700] to-[#00e5ff] w-full" />
               </div>
               {/* Markers */}
               <div className="flex justify-between mt-2">
@@ -46,7 +46,7 @@ export default function RankSystem() {
         </ScrollReveal>
 
         {/* Tier Cards */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
           {RANK_TIERS.map((tier, i) => (
             <ScrollReveal key={tier.name} delay={i * 0.1}>
               <div

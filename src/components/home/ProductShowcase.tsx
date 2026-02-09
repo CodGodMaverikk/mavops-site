@@ -11,12 +11,12 @@ const products = [
   {
     title: "The Overseer",
     description:
-      "The ultimate Discord bot for gaming communities. XP systems, rank tiers, Twitch integration, trivia games, and powerful moderation — all in one bot.",
+      "The ultimate Discord bot for gaming communities. XP & leveling, 5 rank tiers, Twitch integration, AI-powered trivia, streamer spotlights, and chess.",
     icon: Bot,
     badge: "Alpha",
     badgeVariant: "green" as const,
     href: "/bot",
-    features: ["XP & Leveling", "Rank System", "Twitch Integration", "Trivia Games"],
+    features: ["XP & Leveling", "Twitch Integration", "AI Trivia", "Chess System"],
   },
   {
     title: "Clip Dummy AI",

@@ -28,9 +28,9 @@ export default function BotHero() {
               <span className="text-cyan">Overseer</span>
             </h1>
             <p className="text-gray-400 text-lg mb-8 max-w-lg">
-              The ultimate Discord bot for gaming communities. XP systems,
-              ranks, Twitch integration, trivia, and powerful moderation —
-              all in one bot.
+              The ultimate Discord bot for gaming communities. XP &amp; leveling,
+              5 rank tiers, Twitch integration, AI-powered trivia, streamer
+              spotlights, chess, and full server customization via /setup.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button href={BOT_INVITE} size="lg" external>
@@ -74,7 +74,7 @@ export default function BotHero() {
                       earned the <span className="text-[#ffd700] font-semibold">Gold</span> rank!
                     </p>
                     <div className="flex items-center gap-4 text-xs text-gray-500">
-                      <span>XP: 5,240 / 6,000</span>
+                      <span>XP: 8,240 / 15,000</span>
                       <span>Rank: Gold</span>
                     </div>
                   </div>

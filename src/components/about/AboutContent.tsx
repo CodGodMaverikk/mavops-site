@@ -36,10 +36,10 @@ export default function AboutContent() {
                 intuitive tools — without the complexity.
               </p>
               <p className="text-gray-400 text-lg leading-relaxed">
-                From our Discord bot that powers XP systems and community
-                engagement, to Clip Dummy AI that automates clip creation and
-                distribution — we&apos;re building the future of gaming
-                community infrastructure.
+                From The Overseer — our Discord bot with XP systems, Twitch
+                integration, AI trivia, and chess — to Clip Dummy AI that
+                automates clip creation and distribution, we&apos;re building
+                the future of gaming community infrastructure.
               </p>
             </ScrollReveal>
           </div>

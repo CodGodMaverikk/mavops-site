@@ -13,9 +13,9 @@ export const BOT_INVITE =
   "https://discord.com/api/oauth2/authorize?client_id=1373493681830756415&permissions=8&scope=bot%20applications.commands";
 
 export const STATS = [
-  { value: "25+", label: "Commands" },
+  { value: "30+", label: "Commands" },
   { value: "10", label: "Trivia Categories" },
-  { value: "4", label: "Platforms" },
+  { value: "AI", label: "Powered" },
   { value: "Multi", label: "Guild Support" },
 ];
 
@@ -23,213 +23,133 @@ export const BOT_FEATURES = [
   {
     title: "XP & Leveling",
     description:
-      "Reward active members with XP for chatting, voice, and events. Fully customizable multipliers.",
+      "Earn XP from messages, voice chat, Twitch streams, trivia, and events. Anti-spam protection and XP decay keep it fair.",
     icon: "TrendingUp",
   },
   {
     title: "Rank System",
     description:
-      "Bronze, Silver, Gold, Diamond tiers with automatic promotions and exclusive role rewards.",
+      "Five tiers — Unranked, Bronze, Silver, Gold, Diamond — with automatic promotions, role rewards, and configurable thresholds.",
     icon: "Award",
   },
   {
     title: "Twitch Integration",
     description:
-      "Live stream notifications, viewer rewards, and channel point synchronization.",
+      "Link Discord to Twitch, rank-based go-live announcements, stream chat XP, viewer tracking, and automatic stream recaps.",
     icon: "Tv",
   },
   {
-    title: "Trivia & Games",
+    title: "AI-Powered Trivia",
     description:
-      "10+ categories of trivia, leaderboards, and competitive game modes for your community.",
+      "10 built-in categories plus custom ones. GPT-4o generates unique questions on a schedule with XP rewards.",
     icon: "Gamepad2",
   },
   {
-    title: "Member Spotlight",
+    title: "Streamer Spotlight",
     description:
-      "Automatically highlight top contributors with weekly/monthly spotlight features.",
+      "Showcase community streamers with timed spotlight events, attendance tracking, and XP bonuses for participants.",
     icon: "Star",
   },
   {
     title: "Chess System",
     description:
-      "Built-in chess challenges with ELO ratings, tournaments, and leaderboards.",
+      "Challenge others to chess with full move validation, visual boards, private game channels, and XP for wins.",
     icon: "Crown",
   },
   {
-    title: "Moderation",
+    title: "AI Moderation",
     description:
-      "Auto-mod, warning system, temp bans, and audit logging to keep your server safe.",
+      "GPT-4o powered self-promo detection on Twitch, auto-timeouts, AI chat responses, roasts, and shoutout generation.",
     icon: "Shield",
   },
   {
-    title: "Customization",
+    title: "Full Customization",
     description:
-      "Custom commands, welcome messages, reaction roles, and server-specific configurations.",
+      "Configure 15+ channels, 9 roles, XP rates, rank thresholds, feature toggles, branding, and more via /setup.",
     icon: "Settings",
   },
 ];
 
 export const BOT_COMMANDS = [
-  { name: "/xp", description: "Check your XP and level", category: "XP" },
-  {
-    name: "/leaderboard",
-    description: "View server XP leaderboard",
-    category: "XP",
-  },
-  {
-    name: "/rank",
-    description: "View your current rank tier",
-    category: "Ranks",
-  },
-  {
-    name: "/rankup",
-    description: "Promote to next rank tier",
-    category: "Ranks",
-  },
-  {
-    name: "/trivia",
-    description: "Start a trivia game session",
-    category: "Games",
-  },
-  {
-    name: "/trivia-categories",
-    description: "Browse available categories",
-    category: "Games",
-  },
-  {
-    name: "/chess",
-    description: "Challenge someone to chess",
-    category: "Games",
-  },
-  {
-    name: "/chess-elo",
-    description: "View chess ELO ratings",
-    category: "Games",
-  },
-  {
-    name: "/twitch-link",
-    description: "Link your Twitch account",
-    category: "Twitch",
-  },
-  {
-    name: "/twitch-notify",
-    description: "Set up stream notifications",
-    category: "Twitch",
-  },
-  {
-    name: "/twitch-stats",
-    description: "View your Twitch stats",
-    category: "Twitch",
-  },
-  {
-    name: "/spotlight",
-    description: "View current spotlight member",
-    category: "Community",
-  },
-  {
-    name: "/nominate",
-    description: "Nominate a member for spotlight",
-    category: "Community",
-  },
-  {
-    name: "/welcome",
-    description: "Configure welcome messages",
-    category: "Config",
-  },
-  {
-    name: "/autorole",
-    description: "Set up automatic roles",
-    category: "Config",
-  },
-  {
-    name: "/reactionrole",
-    description: "Create reaction role messages",
-    category: "Config",
-  },
-  {
-    name: "/warn",
-    description: "Issue a warning to a member",
-    category: "Moderation",
-  },
-  {
-    name: "/mute",
-    description: "Temporarily mute a member",
-    category: "Moderation",
-  },
-  {
-    name: "/ban",
-    description: "Ban a member from the server",
-    category: "Moderation",
-  },
-  {
-    name: "/audit",
-    description: "View moderation audit log",
-    category: "Moderation",
-  },
-  {
-    name: "/customcmd",
-    description: "Create a custom command",
-    category: "Config",
-  },
-  {
-    name: "/serverinfo",
-    description: "View server statistics",
-    category: "Community",
-  },
-  {
-    name: "/userinfo",
-    description: "View member profile info",
-    category: "Community",
-  },
-  {
-    name: "/help",
-    description: "View all available commands",
-    category: "General",
-  },
-  {
-    name: "/ping",
-    description: "Check bot response time",
-    category: "General",
-  },
+  { name: "/xp", description: "View your XP, level, and rank progress", category: "XP" },
+  { name: "/leaderboard", description: "View the server's top 10 XP earners", category: "XP" },
+  { name: "/addxp", description: "Add XP to a user with a reason (Admin)", category: "XP" },
+  { name: "/removexp", description: "Remove XP from a user with a reason (Admin)", category: "XP" },
+  { name: "/addalias", description: "Link an alt username to your account", category: "XP" },
+  { name: "/trivia", description: "Manually start or close daily trivia (Admin)", category: "Games" },
+  { name: "/cleantrivia", description: "Force cleanup of trivia data (Admin)", category: "Games" },
+  { name: "/chess challenge", description: "Challenge another user to a chess match", category: "Games" },
+  { name: "/chess accept", description: "Accept a pending chess challenge", category: "Games" },
+  { name: "/chess move", description: "Make a move in your active game", category: "Games" },
+  { name: "/chess board", description: "Display the current board state", category: "Games" },
+  { name: "/chess resign", description: "Resign from your active game", category: "Games" },
+  { name: "/chess decline", description: "Decline a pending challenge", category: "Games" },
+  { name: "/chess revoke", description: "Revoke your outgoing challenge", category: "Games" },
+  { name: "/linktwitch", description: "Link your Discord to your Twitch account", category: "Twitch" },
+  { name: "/manuallink", description: "Manually link a user to Twitch (Mod)", category: "Twitch" },
+  { name: "/unlink", description: "Remove a Discord-to-Twitch link (Mod)", category: "Twitch" },
+  { name: "/listchannels", description: "List all connected Twitch channels", category: "Twitch" },
+  { name: "/spotlight", description: "Start a spotlight event for a streamer", category: "Community" },
+  { name: "/stopspotlight", description: "End the active spotlight early", category: "Community" },
+  { name: "/antispam-status", description: "View anti-spam XP system status", category: "Admin" },
+  { name: "/antispam-reset", description: "Reset a user's XP cooldown (Admin)", category: "Admin" },
+  { name: "/config status", description: "Check configuration completeness (Admin)", category: "Admin" },
+  { name: "/resetconfig", description: "Reset bot config to defaults (Admin)", category: "Admin" },
+  { name: "/restartbot", description: "Restart the bot (Admin)", category: "Admin" },
+  { name: "/setup branding", description: "Configure bot name, theme, catch phrase", category: "Setup" },
+  { name: "/setup channels", description: "Configure 15+ channel assignments", category: "Setup" },
+  { name: "/setup roles", description: "Configure rank and special roles", category: "Setup" },
+  { name: "/setup features", description: "Enable/disable bot features", category: "Setup" },
+  { name: "/setup xp_base", description: "Configure base XP values", category: "Setup" },
+  { name: "/setup xp_stream", description: "Configure stream chat XP per rank", category: "Setup" },
+  { name: "/setup xp_ranks", description: "Configure rank XP thresholds", category: "Setup" },
+  { name: "/setup spotlight", description: "Configure spotlight duration and rewards", category: "Setup" },
+  { name: "/setup trivia", description: "Configure trivia schedule and categories", category: "Setup" },
+  { name: "/setup voice", description: "Configure voice channel XP settings", category: "Setup" },
+  { name: "/setup antispam", description: "Configure anti-spam cooldowns and caps", category: "Setup" },
+  { name: "/setup decay", description: "Configure XP decay (progressive or flat)", category: "Setup" },
 ];
 
 export const COMMAND_CATEGORIES = [
   "All",
   "XP",
-  "Ranks",
   "Games",
   "Twitch",
   "Community",
-  "Config",
-  "Moderation",
-  "General",
+  "Admin",
+  "Setup",
 ];
 
 export const RANK_TIERS = [
   {
+    name: "Unranked",
+    color: "#95a5a6",
+    xp: "0 - 249",
+    perks: "Basic access",
+  },
+  {
     name: "Bronze",
     color: "#cd7f32",
-    xp: "0 - 999",
-    perks: "Basic chat access",
+    xp: "250 - 3,999",
+    perks: "5 XP per stream chat message",
   },
   {
     name: "Silver",
     color: "#c0c0c0",
-    xp: "1,000 - 4,999",
-    perks: "Custom nickname color",
+    xp: "4,000 - 7,999",
+    perks: "10 XP per stream chat message",
   },
   {
     name: "Gold",
     color: "#ffd700",
-    xp: "5,000 - 14,999",
-    perks: "Priority voice channels",
+    xp: "8,000 - 14,999",
+    perks: "25 XP per stream chat message",
   },
   {
     name: "Diamond",
     color: "#00e5ff",
     xp: "15,000+",
-    perks: "All perks + exclusive role",
+    perks: "50 XP per stream chat message + exclusive role",
   },
 ];
 
@@ -239,11 +159,11 @@ export const BOT_PRICING = [
     price: "$0",
     period: "forever",
     features: [
-      "Basic XP & Leveling",
-      "5 Custom Commands",
-      "Basic Moderation",
-      "Community Features",
-      "1 Trivia Category",
+      "XP System & Leveling",
+      "Manual XP Management",
+      "Leaderboard",
+      "5 Rank Tiers",
+      "Auto Role Assignment",
     ],
     cta: "Add to Server",
     highlighted: false,
@@ -253,12 +173,12 @@ export const BOT_PRICING = [
     price: "$9.99",
     period: "/month",
     features: [
-      "Advanced XP Multipliers",
-      "25 Custom Commands",
-      "Twitch Integration",
-      "All Trivia Categories",
-      "Chess System",
-      "Priority Support",
+      "Everything in Free",
+      "Voice Channel XP",
+      "Streamer Spotlight",
+      "AI-Powered Daily Trivia",
+      "10 Built-in Categories",
+      "Custom Trivia Categories",
     ],
     cta: "Upgrade to Pro",
     highlighted: true,
@@ -269,12 +189,12 @@ export const BOT_PRICING = [
     period: "/month",
     features: [
       "Everything in Pro",
-      "Unlimited Commands",
-      "Member Spotlight",
-      "Advanced Analytics",
-      "Custom Branding",
-      "API Access",
-      "Dedicated Support",
+      "Twitch Integration",
+      "Stream Chat XP",
+      "XP Decay System",
+      "Anti-Spam Protection",
+      "Stream End Recaps",
+      "Chess System",
     ],
     cta: "Go Premium",
     highlighted: false,
@@ -286,11 +206,9 @@ export const BOT_PRICING = [
     features: [
       "Everything in Premium",
       "Multi-Guild Management",
-      "White-Label Options",
-      "SLA Guarantee",
-      "Custom Development",
-      "Account Manager",
-      "24/7 Priority Support",
+      "Custom Branding",
+      "Priority Support",
+      "API Access",
     ],
     cta: "Contact Sales",
     highlighted: false,
@@ -422,9 +340,9 @@ export const VALUES = [
 
 export const FAQ = [
   {
-    question: "Is the The Overseer free to use?",
+    question: "Is The Overseer free to use?",
     answer:
-      "Yes! The The Overseer has a generous free tier that includes basic XP & leveling, moderation tools, and community features. Premium tiers unlock advanced features like Twitch integration and unlimited custom commands.",
+      "Yes! The Overseer has a free tier that includes XP & leveling, leaderboards, rank tiers, and auto role assignment. Paid tiers unlock features like voice XP, trivia, Twitch integration, and more.",
   },
   {
     question: "When will Clip Dummy be available?",
@@ -432,14 +350,14 @@ export const FAQ = [
       "Clip Dummy is currently in development. Join our Discord server to get notified when the beta launches and get early access.",
   },
   {
-    question: "How do I add the The Overseer to my Discord server?",
+    question: "How do I add The Overseer to my Discord server?",
     answer:
-      'Click the "Add to Server" button on the The Overseer page, then select your server from the dropdown and authorize the required permissions.',
+      'Click the "Add to Server" button on The Overseer page, select your server from the dropdown, and authorize the required permissions. Then use /setup to configure channels, roles, and features.',
   },
   {
-    question: "Can I use MavOps tools for non-gaming communities?",
+    question: "What AI features does The Overseer use?",
     answer:
-      "While MavOps tools are designed with gaming communities in mind, many features like XP systems, moderation, and custom commands work great for any type of Discord community.",
+      "The Overseer uses GPT-4o to generate unique daily trivia questions, detect self-promotion in Twitch chat, generate in-character chat responses, and create hype shoutouts for streamers.",
   },
   {
     question: "How do I get support?",
