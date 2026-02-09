@@ -55,4 +55,9 @@ export const pageMetadata = {
     description:
       "Get in touch with MavOps. Discord support, email, and frequently asked questions.",
   },
+  merch: {
+    title: "MavOps Merch",
+    description:
+      "Official MavOps merchandise. Rep the brand with apparel, accessories, and more.",
+  },
 };

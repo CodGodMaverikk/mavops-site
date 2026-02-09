@@ -2,10 +2,12 @@ export const NAV_LINKS = [
   { label: "Home", href: "/" },
   { label: "The Overseer", href: "/bot" },
   { label: "Clip Dummy", href: "/clipbot" },
+  { label: "Merch", href: "/merch" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
 
+export const MERCH_URL = "https://mavops-shop.fourthwall.com";
 export const DISCORD_INVITE = "https://discord.gg/mavops";
 export const BOT_INVITE =
   "https://discord.com/api/oauth2/authorize?client_id=mavops-bot";
@@ -450,6 +452,7 @@ export const FOOTER_LINKS = {
   products: [
     { label: "The Overseer", href: "/bot" },
     { label: "Clip Dummy AI", href: "/clipbot" },
+    { label: "Merch Store", href: "/merch" },
   ],
   company: [
     { label: "About", href: "/about" },
