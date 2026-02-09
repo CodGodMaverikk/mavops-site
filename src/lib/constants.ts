@@ -1,6 +1,6 @@
 export const NAV_LINKS = [
   { label: "Home", href: "/" },
-  { label: "MavOps Bot", href: "/bot" },
+  { label: "The Overseer", href: "/bot" },
   { label: "ClipBot", href: "/clipbot" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
@@ -420,9 +420,9 @@ export const VALUES = [
 
 export const FAQ = [
   {
-    question: "Is the MavOps Bot free to use?",
+    question: "Is the The Overseer free to use?",
     answer:
-      "Yes! The MavOps Bot has a generous free tier that includes basic XP & leveling, moderation tools, and community features. Premium tiers unlock advanced features like Twitch integration and unlimited custom commands.",
+      "Yes! The The Overseer has a generous free tier that includes basic XP & leveling, moderation tools, and community features. Premium tiers unlock advanced features like Twitch integration and unlimited custom commands.",
   },
   {
     question: "When will ClipBot be available?",
@@ -430,9 +430,9 @@ export const FAQ = [
       "ClipBot is currently in development. Join our Discord server to get notified when the beta launches and get early access.",
   },
   {
-    question: "How do I add the MavOps Bot to my Discord server?",
+    question: "How do I add the The Overseer to my Discord server?",
     answer:
-      'Click the "Add to Server" button on the MavOps Bot page, then select your server from the dropdown and authorize the required permissions.',
+      'Click the "Add to Server" button on the The Overseer page, then select your server from the dropdown and authorize the required permissions.',
   },
   {
     question: "Can I use MavOps tools for non-gaming communities?",
@@ -448,7 +448,7 @@ export const FAQ = [
 
 export const FOOTER_LINKS = {
   products: [
-    { label: "MavOps Bot", href: "/bot" },
+    { label: "The Overseer", href: "/bot" },
     { label: "ClipBot AI", href: "/clipbot" },
   ],
   company: [

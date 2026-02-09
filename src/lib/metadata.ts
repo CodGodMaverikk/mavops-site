@@ -36,7 +36,7 @@ export const siteMetadata: Metadata = {
 
 export const pageMetadata = {
   bot: {
-    title: "MavOps Bot",
+    title: "The Overseer",
     description:
       "The ultimate Discord bot for gaming communities. XP systems, ranks, trivia, Twitch integration, and more.",
   },

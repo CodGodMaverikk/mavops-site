@@ -23,7 +23,7 @@ export default function CTASection() {
                 Join Discord
               </Button>
               <Button href="/bot" variant="outline" size="lg">
-                Explore MavOps Bot
+                Explore The Overseer
               </Button>
             </div>
           </div>

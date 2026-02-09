@@ -9,7 +9,7 @@ import ScrollReveal from "@/components/shared/ScrollReveal";
 
 const products = [
   {
-    title: "MavOps Bot",
+    title: "The Overseer",
     description:
       "The ultimate Discord bot for gaming communities. XP systems, rank tiers, Twitch integration, trivia games, and powerful moderation — all in one bot.",
     icon: Bot,

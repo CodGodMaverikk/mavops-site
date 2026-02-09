@@ -24,8 +24,8 @@ export default function BotHero() {
               Alpha Release
             </Badge>
             <h1 className="font-orbitron text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4">
-              MavOps{" "}
-              <span className="text-cyan">Bot</span>
+              The{" "}
+              <span className="text-cyan">Overseer</span>
             </h1>
             <p className="text-gray-400 text-lg mb-8 max-w-lg">
               The ultimate Discord bot for gaming communities. XP systems,
@@ -57,7 +57,7 @@ export default function BotHero() {
                 <div>
                   <div className="flex items-center gap-2 mb-1">
                     <span className="font-semibold text-cyan text-sm">
-                      MavOps Bot
+                      The Overseer
                     </span>
                     <span className="bg-[#5865F2] text-white text-[10px] px-1.5 py-0.5 rounded font-medium">
                       BOT

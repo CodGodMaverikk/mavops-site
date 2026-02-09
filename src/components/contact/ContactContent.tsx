@@ -27,7 +27,7 @@ const contactMethods = [
   },
   {
     title: "Bot Support",
-    description: "Use /help in any server with MavOps Bot for instant help.",
+    description: "Use /help in any server with The Overseer for instant help.",
     icon: Bot,
     action: "Use /help command",
     href: "/bot",

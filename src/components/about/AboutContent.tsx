@@ -82,7 +82,7 @@ export default function AboutContent() {
               <Link href="/bot" className="block">
                 <div className="glass-card p-8 group hover:-translate-y-1 transition-all duration-300">
                   <h3 className="font-orbitron text-xl font-bold text-white mb-2">
-                    MavOps Bot
+                    The Overseer
                   </h3>
                   <p className="text-gray-400 text-sm mb-4">
                     The ultimate Discord bot for gaming communities.

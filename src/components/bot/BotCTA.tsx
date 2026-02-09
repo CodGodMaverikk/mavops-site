@@ -11,7 +11,7 @@ export default function BotCTA() {
         <ScrollReveal>
           <div className="glass-card p-12 md:p-16 text-center">
             <h2 className="font-orbitron text-3xl sm:text-4xl font-bold text-white mb-4">
-              Add MavOps Bot to Your Server
+              Add The Overseer to Your Server
             </h2>
             <p className="text-gray-400 text-lg max-w-xl mx-auto mb-8">
               Set up in seconds. Start engaging your community with XP, ranks,
