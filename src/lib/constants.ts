@@ -57,9 +57,9 @@ export const BOT_FEATURES = [
     icon: "Crown",
   },
   {
-    title: "AI Moderation",
+    title: "Anti-Spam & Decay",
     description:
-      "GPT-4o powered self-promo detection on Twitch, auto-timeouts, AI chat responses, roasts, and shoutout generation.",
+      "Anti-spam XP protection with cooldowns, hourly caps, and duplicate blocking. Progressive or flat XP decay keeps rankings fair.",
     icon: "Shield",
   },
   {
@@ -357,7 +357,7 @@ export const FAQ = [
   {
     question: "What AI features does The Overseer use?",
     answer:
-      "The Overseer uses GPT-4o to generate unique daily trivia questions, detect self-promotion in Twitch chat, generate in-character chat responses, and create hype shoutouts for streamers.",
+      "The Overseer uses GPT-4o to generate unique daily trivia questions across 10+ categories. Each question is fresh and never repeated.",
   },
   {
     question: "How do I get support?",
