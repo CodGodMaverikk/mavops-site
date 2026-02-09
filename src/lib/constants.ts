@@ -1,7 +1,7 @@
 export const NAV_LINKS = [
   { label: "Home", href: "/" },
   { label: "The Overseer", href: "/bot" },
-  { label: "ClipBot", href: "/clipbot" },
+  { label: "Clip Dummy", href: "/clipbot" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
@@ -326,7 +326,7 @@ export const CLIPBOT_STEPS = [
   {
     step: 1,
     title: "Connect",
-    description: "Link your Twitch or YouTube stream to ClipBot.",
+    description: "Link your Twitch or YouTube stream to Clip Dummy.",
   },
   {
     step: 2,
@@ -425,9 +425,9 @@ export const FAQ = [
       "Yes! The The Overseer has a generous free tier that includes basic XP & leveling, moderation tools, and community features. Premium tiers unlock advanced features like Twitch integration and unlimited custom commands.",
   },
   {
-    question: "When will ClipBot be available?",
+    question: "When will Clip Dummy be available?",
     answer:
-      "ClipBot is currently in development. Join our Discord server to get notified when the beta launches and get early access.",
+      "Clip Dummy is currently in development. Join our Discord server to get notified when the beta launches and get early access.",
   },
   {
     question: "How do I add the The Overseer to my Discord server?",
@@ -449,7 +449,7 @@ export const FAQ = [
 export const FOOTER_LINKS = {
   products: [
     { label: "The Overseer", href: "/bot" },
-    { label: "ClipBot AI", href: "/clipbot" },
+    { label: "Clip Dummy AI", href: "/clipbot" },
   ],
   company: [
     { label: "About", href: "/about" },

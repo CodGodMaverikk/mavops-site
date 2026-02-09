@@ -6,7 +6,7 @@ export const siteMetadata: Metadata = {
     template: "%s | MavOps",
   },
   description:
-    "MavOps is a gaming organization building tools for streamers and communities. Explore our Discord bot and ClipBot AI.",
+    "MavOps is a gaming organization building tools for streamers and communities. Explore our Discord bot and Clip Dummy AI.",
   keywords: [
     "MavOps",
     "gaming",
@@ -41,7 +41,7 @@ export const pageMetadata = {
       "The ultimate Discord bot for gaming communities. XP systems, ranks, trivia, Twitch integration, and more.",
   },
   clipbot: {
-    title: "ClipBot AI",
+    title: "Clip Dummy AI",
     description:
       "AI-powered clip detection and distribution. Automatically find, edit, and upload your best gaming moments.",
   },

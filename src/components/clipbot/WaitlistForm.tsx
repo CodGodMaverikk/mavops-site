@@ -14,7 +14,7 @@ export default function WaitlistForm() {
               Get Early Access
             </h2>
             <p className="text-gray-400 text-lg max-w-xl mx-auto mb-8">
-              ClipBot is currently in development. Join our Discord to get
+              Clip Dummy is currently in development. Join our Discord to get
               notified when the beta launches and be among the first to try it.
             </p>
 

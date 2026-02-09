@@ -19,7 +19,7 @@ const products = [
     features: ["XP & Leveling", "Rank System", "Twitch Integration", "Trivia Games"],
   },
   {
-    title: "ClipBot AI",
+    title: "Clip Dummy AI",
     description:
       "AI-powered clip detection and distribution. Automatically find your best streaming moments and upload them everywhere.",
     icon: Video,

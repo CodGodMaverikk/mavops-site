@@ -37,7 +37,7 @@ export default function AboutContent() {
               </p>
               <p className="text-gray-400 text-lg leading-relaxed">
                 From our Discord bot that powers XP systems and community
-                engagement, to ClipBot AI that automates clip creation and
+                engagement, to Clip Dummy AI that automates clip creation and
                 distribution — we&apos;re building the future of gaming
                 community infrastructure.
               </p>
@@ -97,7 +97,7 @@ export default function AboutContent() {
               <Link href="/clipbot" className="block">
                 <div className="glass-card p-8 group hover:-translate-y-1 transition-all duration-300">
                   <h3 className="font-orbitron text-xl font-bold text-white mb-2">
-                    ClipBot AI
+                    Clip Dummy AI
                   </h3>
                   <p className="text-gray-400 text-sm mb-4">
                     AI-powered clip detection and distribution.
